@@ -6,3 +6,8 @@ direccionarBeginner.addEventListener('click', function () {
     window.location.href = 'select-color.html';
 });
 
+
+beginner.addEventListener('click',()=>{
+    let val = document.getElementById("input").value;
+    sessionStorage.setItem("valor",val);
+})

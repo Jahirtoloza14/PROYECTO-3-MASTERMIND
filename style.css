@@ -25,7 +25,7 @@ body {
 
 #box1 {
     font-size: 80px;
-
+   height: 400px;
 
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .title2 {
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .nickname {
@@ -80,16 +80,76 @@ body {
 
 }
 
-.botones{
+.botones {
     display: grid;
     grid-template-columns: repeat(5, auto);
     gap: 10px;
-    justify-content: center;
+    justify-content:left;
     align-items: center;
+    position: absolute;
+    bottom:  30%;
+    left: 5%;
+
 }
-.botones> .fondo
- {
+
+.fondo>select {
     height: 100px;
 
     width: 100px;
+   
+}
+#miBoton{
+    
+    position: absolute;
+    left: 38%;
+  top: 60%;
+    height: 40px;
+    width: 80px;
+}
+
+
+
+
+.try {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 70%;
+    bottom: 100%;
+
+}
+
+.left,
+.right {
+    display: flex;
+    margin: 3%;
+    margin-bottom: -3%;
+}
+
+.right>div {
+
+    position: relative;
+    top: 30%;
+    left: 100%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(169, 166, 166);
+    margin: 5px;
+}
+
+.left>div {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    border-radius: 10%;
+    background-color: rgb(195, 194, 194);
+    margin: 5px;
+}
+
+
+.container4{
+
 }

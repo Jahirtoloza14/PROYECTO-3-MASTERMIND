@@ -1,7 +1,4 @@
-function changeColor(i) {
-    let color = i.value;
-    i.style.backgroundColor = color;
-}
+
 const redireccionarBtn = document.getElementById('play');
 
 // Agregar un evento de clic al botón

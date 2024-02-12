@@ -1,111 +1,95 @@
-* {
-    margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-color: rgb(98, 97, 97);
 }
 
-html {
-    background-color: rgb(83, 83, 83);
-}
-
-
-
-#game {
-    text-align: center;
-    color: rgb(4, 78, 4);
-    border: 5px solid rgb(4, 78, 4);
-    background-color: rgb(31, 31, 31);
-    max-width: 400px;
-    margin: 10px auto;
-}
-
-header,
-footer {
-    background-color: black;
-    padding: 10px;
-}
-
-main {
-    margin: 10px auto;
-}
-
-.try {
-    display: flex;
+.container {
+    display: grid;
     justify-content: space-around;
+
+
+
+
+
+
+
 }
 
-.left,
-.right {
+
+.box {
     display: flex;
+    justify-content: center;
+    height: 500PX;
+
+
 }
 
-.left > div,
-.right > div {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: rgb(77, 77, 77);
-    margin: 5px;
+#box1 {
+    font-size: 80px;
+
+
 }
 
-
-.select-wrapper {
-    border-radius:50%;
-    display:inline-block;
-    overflow:hidden;
-    margin: 5px;
-}
-
-.select-wrapper select {
-    width:35px;
-    height:35px;
-    border:0px;
-    outline:none;
-}
-
-input[type=button] {
-    background-color:rgb(4, 78, 4);
+.bottones>.boton {
+    font-size: 70px;
+    height: 75px;
+    border-radius: 2%;
     cursor: pointer;
-    color: #cccccc;
-    border-radius: 12px;
-    height:35px;
-    width:100px;
-    margin: 5px auto;
-    transition: 0.5s;
+    margin-left: 20%;
 }
 
-select:hover,
-input:hover {
-    opacity: 0.8;
+.title2 {
+    font-size: 70px;
 }
 
+.nickname {
 
-input[type=button]:active {
-    background-color:rgb(3, 156, 3);
+    font-size: 30px;
 }
 
-
-/*
-.blue {
-    background-color: blue;
+.nickname>input {
+    height: 20px;
 }
 
-.yellow {
-    background-color: yellow;
+.botones2>.beginner,
+.botones2>.intermedio,
+.botones2>.advanced {
+    font-size: 25px;
+    height: 75px;
+    width: 190px;
+    border-radius: 2%;
+    cursor: pointer;
+    margin-left: 6%;
+    margin-top: 5%;
 }
 
-.orange {
-    background-color: orange;
+.container2>#fondo,
+.container2>#fondo2,
+.container2>#fondo3,
+.container2>#fondo4 {
+    height: 100px;
+
+    width: 100px;
 }
 
-.green {
-    background-color: green;
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.violet {
-    background-color: violet;
+.botones{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
+.botones> .fondo
+ {
+    height: 100px;
 
-.purple {
-    background-color: purple;
+    width: 100px;
 }
-*/

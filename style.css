@@ -65,7 +65,9 @@ body {
 .container2>#fondo,
 .container2>#fondo2,
 .container2>#fondo3,
-.container2>#fondo4 {
+.container2>#fondo4,
+.container2>#fondo5,
+.container2>#fondo6 {
     height: 100px;
 
     width: 100px;
@@ -73,7 +75,7 @@ body {
 
 .container2 {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     gap: 10px;
     justify-content: center;
     align-items: center;
@@ -82,7 +84,7 @@ body {
 
 .botones {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     gap: 10px;
     justify-content:left;
     align-items: center;
@@ -94,17 +96,17 @@ body {
 
 .fondo>select {
     height: 100px;
-
+  
     width: 100px;
-   
+  
 }
 #miBoton{
     
     position: absolute;
-    left: 38%;
-  top: 60%;
-    height: 40px;
-    width: 80px;
+    left: 20%;
+  top: 75%;
+    height: 50px;
+    width: 150px;
 }
 
 
@@ -150,6 +152,26 @@ body {
 }
 
 
-.container4{
+.title > h2 {
+    font-size: 100px;
+}
 
+.description-container  {
+    border: solid black;
+    margin-bottom: 5%;
+}
+
+.footer{
+    border: solid black;
+}
+
+.back{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    left: 40%;
+    margin-top:5%;
+    border-radius: 2%;
+    cursor: pointer;
+    background-color: rgb(175, 175, 175);
 }

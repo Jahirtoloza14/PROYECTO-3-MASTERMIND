@@ -14,7 +14,7 @@ const coloresGuardados = JSON.parse(sessionStorage.getItem("coloresSeleccionados
 
 
 let codeLenght = 4;
-let trys = 8;
+let trys = 10;
 let crackTry = 1;
 
 beginner();
@@ -141,10 +141,10 @@ function checkWin(correction_Array) {
         }
     }
     if (countCorrect == codeLenght) {
-        window.location.href = 'index.html';
+        window.location.href = 'win.html';
         beginner();
     } else if (crackTry > trys) {
-
+        window.location.href = 'gameover.html';
         beginner();
     }
 }

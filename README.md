@@ -12,8 +12,6 @@ combinaciones).
 - [Capturas de Pantalla](#capturas-de-pantalla)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Ejemplos](#ejemplos)
-- [Contribución](#contribución)
 - [Desarrollo Local](#desarrollo-local)
 - [Licencia](#licencia)
 
@@ -37,10 +35,19 @@ combinaciones).
 
 
 ## Capturas de Pantalla 📸
-
+Inicio
+![inicio](./imagenes/imagen1.png)
+About
+![about](./imagenes/imagen2.png)
+Nickname
+![Nickname](./imagenes/imagen3.png)
+Seleccionar color
+![seleccionar color](./imagenes/imagen4.png)
+Juego
+![juego](./imagenes/imagen5.png)
 
 ## Instalación ⚙️
-No se requiere una instalación especial para utilizar la Game Boy Web Console en tu sitio web. Solo necesitas incluir los archivos JavaScript y CSS en tu proyecto.
+No se requiere una instalación especial para utilizar el juego MASTERMIND en tu sitio web. Solo necesitas incluir los archivos JavaScript, HTML y CSS en tu proyecto.
 
 
 ## Uso 📌
@@ -49,15 +56,11 @@ Para utilizar la consola MASTERMIND, simplemente incorpora el componente princip
 
 
 
-## Contribución 💬
-
-
-
 ## Desarrollo Local 🔨
 Si deseas contribuir o realizar modificaciones locales al proyecto, sigue estos pasos:
 1. Clona este repositorio:
 ```
-  git clone https://github.com/Jahirtoloza14/Proyecto2.git
+  git clone https://github.com/Jahirtoloza14/Proyecto3.git
 ```
 2.Abre el proyecto en tu editor de código favorito.
 3.Realiza las modificaciones o contribuciones deseadas en los archivos .js y .css. 

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let get = sessionStorage.getItem("valor");
     document.getElementById('valor').textContent = get;
-    console.log(get);
+
 })
 
 
@@ -19,7 +19,7 @@ let crackTry = 1;
 
 beginner();
 
-function beginner() {
+function beginner ()=> {
     randomColors = [];
     crackTry = 1;
     display.innerHTML = '';
@@ -29,8 +29,10 @@ function beginner() {
         let divTry = document.createElement('div');
         divTry.setAttribute('id', 'try-' + i);
         divTry.setAttribute('class', 'try');
+
         let tryLeft = document.createElement('div');
         tryLeft.setAttribute('class', 'left');
+
         let tryRight = document.createElement('div');
         tryRight.setAttribute('class', 'right');
 
@@ -82,16 +84,16 @@ function randomCode() {
         randomColors.push(random_color);
 
     }
-    console.log(randomColors);
+
 }
 
 clickButton.addEventListener('click', (e) => {
 
     let input_colors = document.querySelectorAll('.fondo>select');
     let input_colors_arr = [];
-    for (let v of input_colors) {
-        input_colors_arr.push(v.value);
-    } console.log(input_colors);
+    for (let valor of input_colors) {
+        input_colors_arr.push(valor.value);
+    }
     show('left', input_colors_arr);
     correction_Array = createCorrectionArray(input_colors_arr);
     show('right', correction_Array);
@@ -103,9 +105,9 @@ clickButton.addEventListener('click', (e) => {
 
 function show(type, coloresGuardados) {
     let tryView = document.querySelectorAll('#try-' + crackTry + '>.' + type + '>div');
-    tryView.forEach((v, i) => {
-        v.setAttribute('style', 'background-color:' + coloresGuardados[i]);
-    }); console.log(tryView);
+    tryView.forEach((valor, i) => {
+        valor.setAttribute('style', 'background-color:' + coloresGuardados[i]);
+    });
 }
 
 function createCorrectionArray(input_colors_arr) {

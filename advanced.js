@@ -30,7 +30,7 @@ let crackTry = 1;
 
 beginner();
 
-function beginner() {
+function beginner  (){
     randomColors = [];
     crackTry = 1;
     display.innerHTML = '';
@@ -81,7 +81,7 @@ function beginner() {
         buttons.append(div_select_wrapper);
     }
     randomCode();
-}
+};
 
 
 
@@ -93,7 +93,7 @@ function randomCode() {
         randomColors.push(random_color);
 
     }
-    console.log(randomColors);
+   
 }
 
 clickButton.addEventListener('click', (e) => {
@@ -116,7 +116,7 @@ function show(type, coloresGuardados) {
     let tryView = document.querySelectorAll('#try-' + crackTry + '>.' + type + '>div');
     tryView.forEach((v, i) => {
         v.setAttribute('style', 'background-color:' + coloresGuardados[i]);
-    }); console.log(tryView);
+    })
 }
 
 function createCorrectionArray(input_colors_arr) {

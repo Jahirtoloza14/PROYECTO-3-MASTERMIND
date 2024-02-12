@@ -19,12 +19,12 @@ let crackTry = 1;
 
 beginner();
 
-function beginner ()=> {
+function beginner () {
     randomColors = [];
     crackTry = 1;
     display.innerHTML = '';
     buttons.innerHTML = '';
-
+//* creacion de elementos y atributos *//
     for (let i = 1; i <= trys; i++) {
         let divTry = document.createElement('div');
         divTry.setAttribute('id', 'try-' + i);
@@ -77,7 +77,7 @@ function beginner ()=> {
 
 
 
-
+//* adivinar los colores *//
 function randomCode() {
     for (let i = 1; i <= codeLenght; i++) {
         let random_color = coloresGuardados[Math.floor(Math.random() * coloresGuardados.length)]
@@ -86,7 +86,7 @@ function randomCode() {
     }
 
 }
-
+//* mostrar los colores *//
 clickButton.addEventListener('click', (e) => {
 
     let input_colors = document.querySelectorAll('.fondo>select');
@@ -115,19 +115,19 @@ function createCorrectionArray(input_colors_arr) {
     let correction_Array = [];
 
 
-    for (let i in random_code_copy) {
-        if (random_code_copy[i] == input_colors_arr[i]) {
-            random_code_copy[i] = null;
-            input_colors_arr[i] = null;
+    for (let it in random_code_copy) {
+        if (random_code_copy[it] == input_colors_arr[it]) {
+            random_code_copy[it] = null;
+            input_colors_arr[it] = null;
             correction_Array.push('purple');
         }
     }
 
-    for (let i in random_code_copy) {
-        for (j in input_colors_arr) {
-            if (random_code_copy[i] != null && random_code_copy[i] == input_colors_arr[j]) {
-                random_code_copy[i] = null;
-                input_colors_arr[j] = null;
+    for (let it in random_code_copy) {
+        for (joy in input_colors_arr) {
+            if (random_code_copy[it] != null && random_code_copy[it] == input_colors_arr[joy]) {
+                random_code_copy[it] = null;
+                input_colors_arr[joy] = null;
                 correction_Array.push('white');
             }
         }
@@ -137,8 +137,8 @@ function createCorrectionArray(input_colors_arr) {
 
 function checkWin(correction_Array) {
     let countCorrect = 0;
-    for (let v of correction_Array) {
-        if (v == 'purple') {
+    for (let valor of correction_Array) {
+        if (valor == 'purple') {
             countCorrect++;
         }
     }

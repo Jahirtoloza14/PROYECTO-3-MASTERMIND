@@ -37,19 +37,7 @@ combinaciones).
 
 
 ## Capturas de Pantalla 📸
-inicio
-![inicio](./imagenes/pantallazo1.png)
-Pulsando el Boton power switch
-![Pulsando el Boton power switch](./imagenes/pantallazo3.png)
-Pulsando el Boton azul
-![Pulsando el Boton azul](./imagenes/pantallazo2.png)
-Pulsando el Boton gris
-![Pulsando el Boton gris](./imagenes/pantallazo4.png)
-Pulsando el Boton verde
-![Pulsando el Boton verde](./imagenes/pantallazo5.png)
 
-RESPONSIVE 100%
-![responsive](./imagenes/Responsive100%.png)
 
 ## Instalación ⚙️
 No se requiere una instalación especial para utilizar la Game Boy Web Console en tu sitio web. Solo necesitas incluir los archivos JavaScript y CSS en tu proyecto.
@@ -62,7 +50,7 @@ Para utilizar la consola MASTERMIND, simplemente incorpora el componente princip
 
 
 ## Contribución 💬
-Este proyecto es un ejercicio creativo y de diseño. Siéntete libre de contribuir, hacer sugerencias o realizar mejoras. ¡Diviértete experimentando con la apariencia de la consola Game Boy en la web!
+
 
 
 ## Desarrollo Local 🔨

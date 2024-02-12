@@ -25,7 +25,7 @@ body {
 
 #box1 {
     font-size: 80px;
-   height: 400px;
+    height: 400px;
 
 }
 
@@ -86,25 +86,26 @@ body {
     display: grid;
     grid-template-columns: repeat(6, auto);
     gap: 10px;
-    justify-content:left;
+    justify-content: left;
     align-items: center;
     position: absolute;
-    bottom:  30%;
+    bottom: 30%;
     left: 5%;
 
 }
 
 .fondo>select {
     height: 100px;
-  
+
     width: 100px;
-  
+
 }
-#miBoton{
-    
+
+#miBoton {
+
     position: absolute;
     left: 20%;
-  top: 75%;
+    top: 75%;
     height: 50px;
     width: 150px;
 }
@@ -152,26 +153,34 @@ body {
 }
 
 
-.title > h2 {
+.title>h2 {
     font-size: 100px;
 }
 
-.description-container  {
+.description-container {
     border: solid black;
     margin-bottom: 5%;
 }
 
-.footer{
+.footer {
     border: solid black;
 }
 
-.back{
+.back {
     height: 50px;
     width: 150px;
     position: relative;
     left: 40%;
-    margin-top:5%;
+    margin-top: 5%;
     border-radius: 2%;
     cursor: pointer;
     background-color: rgb(175, 175, 175);
+}
+
+.miBoton2 {
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    height: 50px;
+    width: 150px;
 }

@@ -27,7 +27,7 @@ combinaciones).
 
 2. CSS: Para el diseño y estilo de tus elementos HTML.
 
-3. JavaScript (Vanilla): Para la interactividad de la consola Game Boy. Has utilizado JavaScript para manipular el DOM (Document Object Model), Nomenclatura ES6 y gestionar eventos como clics utilizando API session storage para guarda y almacenar informacion.
+3. JavaScript (Vanilla): Para la interactividad de la consola Game Boy. he utilizado JavaScript para manipular el DOM (Document Object Model), Nomenclatura ES6 y gestionar eventos como clics utilizando API session storage para guarda y almacenar informacion.
 
 4. GitHub: Para alojar y versionar .
 
